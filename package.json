@@ -1,0 +1,25 @@
+{
+  "name": "online-voting-system",
+  "version": "1.0.0",
+  "description": "Secure online voting system built with Node.js, Express, and EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "voting",
+    "online-voting",
+    "express",
+    "pnpm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  }
+}
